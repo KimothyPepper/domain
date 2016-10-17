@@ -28,6 +28,10 @@ margin-right: auto;
 line-height: 20px;
 }
 
+.navcolor {
+  background-color: #4b6879;
+}
+
 .index {
   color: white;
   background-image: url("../images/cloud.jpg");
@@ -46,8 +50,12 @@ li {
 }
 
 .me {
-  border-radius:100px;
+  border-radius:200px;
   width:100%;
+}
+
+.light-blue {
+background-color: #c6d8e2;
 }
 
 .black {
