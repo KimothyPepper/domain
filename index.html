@@ -1,53 +1,35 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Kim Pepin</title>
-  <meta name="google-site-verification" content="aDSQHaWrnpxEko4sr9vo7ocwOWI1nL4Xr7TTQm7WunM" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="mobileoptimized" content="240">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/modules.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+---
+layout: default
+---
+<title>Kim Pepin • Graphic Design Portfolio</title>
 
-</head>
-<body class="index">
-
-  <div class="grid">
-    <div class="unit xs-1 s-1 m-1 l-1">
-    <nav class="navcolor gutter">
-      <ul class="">
-        <li class="island-half">
-          <a  href="index.html">Home</a>
-        </li>
-        <li class="island-half">
-          <a  href="bio.html">Bio</a>
-        </li>
-        <li class="island-half">
-          <a  href="portfolio.html">Portfolio</a>
-        </li>
-      </ul>
-    </nav>
-   </div>
-  </div>
-
-<h1 class="text-center pad-top-double"> Kim Pepin </h1>
-<h2 class="text-center gutter">Currently a third year graphic design student at Algonquin College. Web Design, photography and UX Design are some of my main passions. I love to travel and experience new things everyday.</h2>
-<p class="text-center">E-mail: kim@kimpepin.ca</p>
-<div class="text-center">
-  <a href="https://www.linkedin.com/in/kim-pepin-98934ab5">
-    <img class="icon" src="images/social-01.png" alt="">
-  </a>
-  <a href="https://www.instagram.com/kim.pepin.design/">
-   <img class="icon" src="images/social-02.png" alt="">
-  </a>
-  <a href="https://vimeo.com/kimothy">
-   <img class="icon" src="images/social-03.png" alt="">
-  </a>
-</div>
-
-</body>
-</html>
+  <body class="index">
+    <main itemscope itemtype="https://schema.org/CreativeWork">
+    <img itemprop="image" src="{{site.baseurl}}/images/homepagebanner.svg" alt="">
+    <div class="grid text-center center">
+      <div class="unit xs-1 s-1-2 m-1-4 l-1-4 text-center">
+        <a itemprop="url"  href="{{site.baseurl}}/portfolio">
+        <img itemprop="image" src="{{site.baseurl}}/images/homepage-icons-01.svg" alt="">
+       </a>
+        <p itemprop="text" class="imgtitle island-half darkblue">UX/UI</p>
+      </div>
+      <div class="unit xs-1 s-1-2 m-1-4 l-1-4">
+        <a itemprop="url"  href="{{site.baseurl}}/portfolio">
+        <img itemprop="image" src="{{site.baseurl}}/images/homepage-icons-02.svg" alt="">
+       </a>
+        <p itemprop="text" class="imgtitle island-half darkblue">Photography</p>
+      </div>
+      <div class="unit xs-1 s-1-2 m-1-4 l-1-4">
+        <a itemprop="url"  href="{{site.baseurl}}/portfolio">
+        <img itemprop="image" src="{{site.baseurl}}/images/homepage-icons-03.svg" alt="">
+       </a>
+        <p itemprop="text" class="imgtitle island-half darkblue">Logos & Branding</p>
+      </div>
+      <div class="unit xs-1 s-1-2 m-1-4 l-1-4">
+        <a itemprop="url"  href="{{site.baseurl}}/portfolio">
+        <img itemprop="image" src="{{site.baseurl}}/images/homepage-icons-04.svg" alt="">
+       </a>
+        <p itemprop="text" class="imgtitle island-half darkblue">Typography</p>
+      </div>
+    </div>
+  </body>
