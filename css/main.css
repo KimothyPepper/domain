@@ -36,15 +36,30 @@ line-height: 20px;
   width: 2em;
 }
 
+li {
+  color: white;
+}
+
+.errortext {
+  color: black;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
 .btn {
-  background-color: #b2a3b3;
+  background-color: #d60d0d;
     border: none;
+    border-radius: 60%;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
+}
+
+a {
+  color: white;
 }
 
 .white {
@@ -56,9 +71,9 @@ line-height: 20px;
   background-image: url("../images/city.jpg");
 }
 
-.404page {
+.background2 {
   color: white;
-  background-image: url("../images/404background.svg");
+  background-image: url("../images/hatsxmas.svg");
 }
 
 .me {
@@ -107,6 +122,11 @@ img {
 h1 {
   font-size: 2em;
   color: #c6d8e2;
+}
+
+.title404 {
+  font-size: 7em;
+  color: #4b6879;
 }
 
 h2 {
