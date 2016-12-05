@@ -3,10 +3,13 @@ permalink: /404.html
 ---
 
   <main class="404page">
-<img itemprop="image" class="mainlogo island-half klogo" src="{{site.baseurl}}/images/klogo.svg" alt="logo of a K">
-Page not Found
-<h1 class="text-center ">404</h1>
-<li class="island-half">
-  <a itemprop="url" class="{% if page.url == '/' %} homeblue {% endif %} blue"  href="{{site.baseurl}}/">Home</a>
-</li>
-</main>
+    <img itemprop="image" class="mainlogo island-half klogo" src="{{site.baseurl}}/images/klogo.svg" alt="logo of a K">
+
+      <h1 class="text-center">404</h1>
+      <p class="text-center">Page Not Found</p>
+      <ul class="list-group--inline">
+        <li class="island-half">
+          <a itemprop="url" class="{% if page.url == '/' %} homeblue {% endif %} blue"  href="{{site.baseurl}}/">Home</a>
+        </li>
+      </ul>
+    </main>
