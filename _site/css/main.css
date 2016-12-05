@@ -56,6 +56,11 @@ line-height: 20px;
   background-image: url("../images/city.jpg");
 }
 
+.404page {
+  color: white;
+  background-image: url("../images/404background.svg");
+}
+
 .me {
   border-radius:200px;
   width:100%;
