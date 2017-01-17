@@ -46,20 +46,9 @@ li {
   font-size: 1.5em;
 }
 
-.btn {
-  background-color: #d60d0d;
-    border: none;
-    border-radius: 60%;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-}
 
 a {
-  color: white;
+  color: black;
 }
 
 .white {
@@ -109,11 +98,6 @@ a {
 .icon {
   width: 3em;
 }
-
-footer {
-  background-color: #c6d8e2;
-}
-
 
 img {
   width:100%;
@@ -177,10 +161,35 @@ p {
 }
 
 nav li:hover {
-  background-color: pink;
-
+  text-decoration: underline;
 }
 
-.nopadding {
-  padding: 0;
+.btn {
+  background-color: #c7d7e0;
+    border: #fff;
+    border-radius: 12px;
+    color: #4a859a;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.btn:hover {
+  background-color: #a6bdca;
+}
+
+.textwhite {
+  color: white;
+}
+
+.width {
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.divwidth {
+  padding-left: 15%;
+  padding-right: 15%;
 }

@@ -5,4 +5,4 @@
 {% include_relative modules.min.css %}
 {% include_relative grid.min.css %}
 {% include_relative type.min.css %}
-{% include_relative main.min.css %}
+{% include_relative main.css %}
