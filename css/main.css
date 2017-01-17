@@ -162,3 +162,25 @@ p {
 .skip-links a:focus {
   top: 0;
 }
+
+.pop-out
+{
+    transition: transform .5s;
+}
+
+.pop-out:hover
+{
+    -ms-transform: scale(1.3, 1.3);
+    -webkit-transform: scale(1.3, 1.3);
+    transform: scale(1.3, 1.3);
+    text-align: center;
+}
+
+nav li:hover {
+  background-color: pink;
+
+}
+
+.nopadding {
+  padding: 0;
+}

@@ -2,48 +2,70 @@
 layout: default
 ---
 <title>Portfolio • Kim Pepin Graphic Design</title>
+<style>
+.pop-out
+{
+    transition: transform .5s;
+}
+
+.pop-out:hover
+{
+    -ms-transform: scale(1.3, 1.3);
+    -webkit-transform: scale(1.3, 1.3);
+    transform: scale(1.3, 1.3);
+    text-align: center;
+}
+</style>
   <body class="about light-blue">
     <main itemscope itemtype="https://schema.org/CreativeWork">
     <div class="grid text-center pad-bottom">
       <div class="unit xs-1 s-1 m-1-2 l-1-4 gutter pad-bottom">
         <a itemprop="url"  href="{{site.baseurl}}/skatespot.html">
-        <img itemprop="image" src="{{site.baseurl}}/images/skatespot.jpg" alt="Skate Spot Logo">
+        <img itemprop="image" src="{{site.baseurl}}/images/skatespot.jpg" class="pop-out" alt="Skate Spot Logo">
         </a>
+        <h2 class="blue pad-top">Skate Spot App</h2>
       </div>
       <div class="unit xs-1 s-1 m-1-2 l-1-4 gutter pad-bottom">
         <a itemprop="url" href="{{site.baseurl}}/pocketmechanic.html">
-        <img itemprop="image" src="{{site.baseurl}}/images/pocketmechanic.svg" alt="Pocket Mechanic Logo">
+        <img itemprop="image" src="{{site.baseurl}}/images/pocketmechanic.svg" class="pop-out" alt="Pocket Mechanic Logo">
         </a>
+        <h2 class="blue pad-top">Pocket Mechanic App</h2>
       </div>
       <div class="unit xs-1 s-1 m-1-2 l-1-4 gutter pad-bottom">
         <a itemprop="url"  href="{{site.baseurl}}/maynards.html">
-        <img itemprop="image" src="{{site.baseurl}}/images/motorsafe.jpg" alt="MotorSafe Icon">
+        <img itemprop="image" src="{{site.baseurl}}/images/motorsafe.jpg"  class="pop-out" alt="MotorSafe Icon">
         </a>
+        <h2 class="blue pad-top">Motor Safe App</h2>
       </div>
       <div class="unit xs-1 s-1 m-1-2 l-1-4 gutter pad-bottom">
         <a itemprop="url"  href="{{site.baseurl}}/fermegillette">
-        <img itemprop="image" src="{{site.baseurl}}/images/cow.jpg" alt="Icon of a cow">
+        <img itemprop="image" src="{{site.baseurl}}/images/cow.jpg" class="pop-out" alt="Icon of a cow">
         </a>
+        <h2 class="blue pad-top">Ferme Gillette Branding</h2>
       </div>
       <div class="unit xs-1 s-1 m-1-2 l-1-4 gutter pad-bottom">
         <a itemprop="url"  href="{{site.baseurl}}/cookbook.html">
-        <img itemprop="image" src="{{site.baseurl}}/images/cookbook.jpg" alt="Cookbook Logo">
+        <img itemprop="image" src="{{site.baseurl}}/images/cookbook.jpg" class="pop-out" alt="Cookbook Logo">
         </a>
+        <h2 class="blue pad-top">Virtual Cookbook</h2>
       </div>
       <div class="unit xs-1 s-1 m-1-2 l-1-4 gutter pad-bottom">
         <a itemprop="url"  href="{{site.baseurl}}/quotebook.html">
-        <img itemprop="image" src="{{site.baseurl}}/images/book.jpg" alt="Quote Book">
+        <img itemprop="image" src="{{site.baseurl}}/images/book.jpg" class="pop-out" alt="Quote Book">
         </a>
+        <h2 class="blue pad-top">Quote Book</h2>
       </div>
       <div class="unit xs-1 s-1 m-1-2 l-1-4 gutter pad-bottom">
         <a itemprop="url"  href="{{site.baseurl}}/photography.html">
-        <img itemprop="image" src="{{site.baseurl}}/images/camera.jpg" alt="Photography Icon">
+        <img itemprop="image" src="{{site.baseurl}}/images/camera.jpg" class="pop-out" alt="Photography Icon">
         </a>
+        <h2 class="blue pad-top">Photography</h2>
       </div>
       <div class="unit xs-1 s-1 m-1-2 l-1-4 gutter pad-bottom">
         <a itemprop="url"  href="{{site.baseurl}}/illustrations.html">
-        <img itemprop="image" src="{{site.baseurl}}/images/illustrations.jpg" alt="Illustration Icon">
+        <img itemprop="image" src="{{site.baseurl}}/images/illustrations.jpg" class="pop-out" alt="Illustration Icon">
         </a>
+        <h2 class="blue pad-top">Illustrations</h2>
       </div>
     </div>
   </main>
